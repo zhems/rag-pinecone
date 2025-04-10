@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rag-pinecone"
+version = "0.1.0"
+description = ""
+authors = ["Zhe Min <chiazhemin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.72.0"
+ipykernel = "^6.29.5"
+pinecone = "^6.0.2"
+jupyter = "^1.1.1"
+datasets = "^3.5.0"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
